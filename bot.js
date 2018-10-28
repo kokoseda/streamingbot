@@ -15,19 +15,9 @@ client.on('message', message => {
 
     let args = message.content.split(" ").slice(1);
 
-    if (command == "e") {
-      if (message.author.id !== '506034854043975681') return;
- if(!message.author.id === '506034854043975681') return;
-        let say = new Discord.RichEmbed()
-            .setDescription(args.join("  "))
-            .setColor('RANDOM')
-        message.channel.sendEmbed(say);
-        message.delete();
-    }
-});
-
+  
 const adminprefix = "-";
-const devs = ['506034854043975681'];
+const devs = ['506032082066079745'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
