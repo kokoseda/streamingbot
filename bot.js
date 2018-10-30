@@ -16,8 +16,8 @@ client.on('message', message => {
     let args = message.content.split(" ").slice(1);
 
   if (command == "e") {
-      if (message.author.id !== '506032082066079745') return;
- if(!message.author.id === '506032082066079745') return;
+      if (message.author.id !== '314135031029170197') return;
+ if(!message.author.id === '314135031029170197') return;
         let say = new Discord.RichEmbed()
             .setDescription(args.join("  "))
             .setColor('RANDOM')
@@ -27,7 +27,7 @@ client.on('message', message => {
 });
   
 const adminprefix = "-";
-const devs = ['506032082066079745','314135031029170197'];
+const devs = ['314135031029170197'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
