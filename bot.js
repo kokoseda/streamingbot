@@ -29,4 +29,4 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login("NzQyNDgyMTc5MDUyNzk4MDU0.XzGwag.IWzMA4MQzBXArXA1we58tBoPcTI");
